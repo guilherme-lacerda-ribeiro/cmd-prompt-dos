@@ -68,3 +68,14 @@ tar -cf notas.zip *.xml 2> erros.txt
 IF %ERRORLEVEL% NEQ 0 (echo "Erro na execução do script")
 </pre>
 
+## winget gerenciador pacotes
+A partir do Win 10. [Documentação](https://learn.microsoft.com/pt-br/windows/package-manager/winget/).
+
+winget --info
+
+winget search Java
+
+winget install -e --id Oracle.JDK.19
+
+
+
