@@ -14,7 +14,9 @@
 - find similar ao grep linux
 
 ## variáveis de ambiente 
-- `set`
+Path
+- `echo %path%` ou `set`
+- `set msg=Olá Mundo!`
 seta uma variável no prompt, fechou perdeu
 
 <pre>
