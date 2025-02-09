@@ -19,6 +19,17 @@ seta uma variável no prompt, fechou perdeu
 - [`setx`](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/setx)
 Adicionar variavel de ambiente de modo permanente
 
+<pre>
+@echo off 
+rem limpando a tela
+cls
+set /p nome=Digite seu nome completo =
+set /p email=Digite seu e-mail principal =
+pause
+echo ..................................................................................
+echo Seu nome é %nome% e seu e-mail %email%
+</pre>
+
 ## exemplos de scripts
 <pre>
 cls
@@ -39,16 +50,16 @@ Códigos no terminal com significados específicos:
 - Um (stdout) representa a saída do comando no terminal;
 - Dois (2) significa a saída de erro.
 
-`
+<pre>
 @echo off
 echo Compactando arquivos
 tar -cf notas.zip *.xml 2> erros.txt
-`
+</pre>
 
-`
+<pre>
 @echo off
 echo Compactando arquivos
 tar -cf notas.zip *.xml 2> erros.txt
 IF %ERRORLEVEL% NEQ 0 (echo "Erro na execução do script")
-`
+</pre>
 
