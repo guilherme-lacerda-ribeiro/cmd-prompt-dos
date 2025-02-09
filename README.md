@@ -77,5 +77,4 @@ winget search Java
 
 winget install -e --id Oracle.JDK.19
 
-
-
+alternativa para abaixo de win 10 é o [chocolatey](https://chocolatey.org/).
