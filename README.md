@@ -20,18 +20,18 @@ seta uma variável no prompt, fechou perdeu
 Adicionar variavel de ambiente de modo permanente
 
 ## exemplos de scripts
-`
+<pre>
 cls
 echo executando o script
 move *.log .\Backup
 pause
-`
+</pre>
 
-`
+<pre>
 @echo off
 echo Compactando arquivos
 tar -cf notas.zip *.xml
-`
+</pre>
 
 ## tratamento erros
 Códigos no terminal com significados específicos:
