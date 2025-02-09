@@ -16,8 +16,6 @@
 ## variáveis de ambiente 
 - `set`
 seta uma variável no prompt, fechou perdeu
-- [`setx`](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/setx)
-Adicionar variavel de ambiente de modo permanente
 
 <pre>
 @echo off 
@@ -29,6 +27,11 @@ pause
 echo ..................................................................................
 echo Seu nome é %nome% e seu e-mail %email%
 </pre>
+
+- [`setx`](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/setx)
+Adicionar variavel de ambiente de modo permanente, **prompt como administrador**.
+
+`C:\Windows\system32>setx path "%path%;C:\Users\Emerson\Desktop\prompt\bin" /M`
 
 ## exemplos de scripts
 <pre>
