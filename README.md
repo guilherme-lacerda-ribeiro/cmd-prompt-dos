@@ -83,4 +83,5 @@ alternativa para abaixo de win 10 é o [chocolatey](https://chocolatey.org/).
 - PowerShell
 - cmder (não é da microsoft)
 - Windows Terminal `winget install -e --id Microsoft.WindowsTerminal`
-- Tema para Windows Terminal (e outros) [dracula](https://draculatheme.com/)
+  - Tema para Windows Terminal (e outros) [dracula](https://draculatheme.com/)
+- wsl
